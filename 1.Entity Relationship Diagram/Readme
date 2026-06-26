@@ -1,1 +1,42 @@
+# Task 1 – Entity Relationship Diagram
+
+## Project
+
+Smart Lender – Loan Eligibility Prediction System
+
+## Objective
+
+Design an Entity Relationship Diagram (ERD) representing the database structure of the Smart Lender application.
+
+## Entities
+
+- User
+- Applicant Profile
+- Credit History
+- Loan Application
+- Model
+- Prediction Result
+
+## Relationships
+
+- User → Applicant Profile (1:N)
+- Applicant Profile → Credit History (1:1)
+- Applicant Profile → Loan Application (1:N)
+- Loan Application → Prediction Result (1:1)
+- Model → Prediction Result (1:N)
+
+## Files
+
+```
+Task-01-Entity-Relationship-Diagram/
+│
+├── README.md
+├── Documentation.md
+└── images/
+    └── ER_Diagram.png
+```
+
+## Output
+
+The ER Diagram defines the database schema and relationships required for the Loan Eligibility Prediction System.
 
