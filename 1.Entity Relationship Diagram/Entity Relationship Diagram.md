@@ -4,6 +4,7 @@
 This document outlines the database design for the Smart Lender – Loan Eligibility Prediction System. It includes definitions for all core entities, their attributes, keys, and the relationships that bind them together.
 
 ---
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/192ef3b0-cc57-4c2a-a3a0-88a9523967ad" />
 
 ### ER Diagram
 
