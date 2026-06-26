@@ -9,7 +9,8 @@ This document outlines the systematic Machine Learning and software development 
 
 Below is the vertical lifecycle flowchart representing the phases of the project.
 
-![Smart Lender Project Workflow](file:///C:/Users/ADMIN/.gemini/antigravity/brain/5e7d0c00-a396-4555-9d64-acbbf2d6075a/Workflow_Diagram.png)
+<img width="1000" height="1200" alt="Workflow_Diagram" src="https://github.com/user-attachments/assets/fb5e8e38-71da-4a72-a3d7-ec24eb11dbc0" />
+
 
 ---
 
