@@ -1,1 +1,61 @@
+# Task 3 – Workflow
+
+## Project
+
+**Smart Lender – Loan Eligibility Prediction System**
+
+## Objective
+
+This task describes the complete workflow of the Smart Lender project, covering dataset collection, data analysis, preprocessing, machine learning model development, evaluation, and deployment.
+
+## Workflow Phases
+
+### Epic 1
+
+* Data Collection
+* Application Architecture
+
+### Epic 2
+
+* Import Dataset
+* Univariate Analysis
+* Bivariate Analysis
+* Multivariate Analysis
+
+### Epic 3
+
+* Missing Value Handling
+* Dataset Balancing
+* Feature Scaling
+* Train-Test Split
+
+### Epic 4
+
+* Decision Tree
+* Random Forest
+* KNN
+* XGBoost
+* Model Evaluation
+
+### Epic 5
+
+* HTML Pages
+* Flask Backend
+* Application Testing
+
+## Folder Structure
+
+```text
+Task-03-Workflow/
+│
+├── README.md
+├── Documentation.md
+└── images/
+    ├── Workflow_Diagram.png
+    └── ML_Workflow.png
+```
+
+## Outcome
+
+A structured Machine Learning workflow that guides the development of the Smart Lender Loan Eligibility Prediction System from data collection to deployment.
 
