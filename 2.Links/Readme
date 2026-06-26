@@ -1,1 +1,49 @@
+# Task 2 – Project Links
+
+## Project
+
+Smart Lender – Loan Eligibility Prediction System
+
+## Objective
+
+This task documents the software tools, Python libraries, and official resources used to build the Smart Lender application.
+
+## Technologies Used
+
+* Python
+* Anaconda Navigator
+* PyCharm
+* NumPy
+* Pandas
+* Scikit-learn
+* Matplotlib
+* Seaborn
+* Flask
+
+## Official Resources
+
+| Tool               | Link                               |
+| ------------------ | ---------------------------------- |
+| Anaconda Navigator | https://www.anaconda.com/download  |
+| PyCharm            | https://www.jetbrains.com/pycharm/ |
+| NumPy              | https://numpy.org/doc/stable/      |
+| Pandas             | https://pandas.pydata.org/docs/    |
+| Scikit-learn       | https://scikit-learn.org/stable/   |
+| Matplotlib         | https://matplotlib.org/stable/     |
+| Seaborn            | https://seaborn.pydata.org/        |
+| Flask              | https://flask.palletsprojects.com/ |
+
+## Folder Structure
+
+```text
+Task-02-Links/
+│
+├── README.md
+├── Documentation.md
+└── images/
+```
+
+## Outcome
+
+All required software tools and libraries are documented with their official download or documentation links, providing a clear reference for setting up the Smart Lender project development environment.
 
