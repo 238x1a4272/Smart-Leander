@@ -1,1 +1,230 @@
+# Epic 4 – Model Building
+
+## Project Name
+
+**Smart Lender – Loan Eligibility Prediction System**
+
+## Overview
+
+This epic focuses on developing and evaluating multiple machine learning classification models to predict loan eligibility. After preprocessing the dataset, different algorithms are trained and tested to identify the model that provides the highest prediction accuracy. The performance of each model is evaluated using standard classification metrics, and the best-performing model is saved for deployment in the Flask web application.
+
+---
+
+## Objectives
+
+* Build multiple classification models for loan eligibility prediction.
+* Compare the performance of different machine learning algorithms.
+* Evaluate models using appropriate performance metrics.
+* Select the best-performing model.
+* Save the trained model for integration with the web application.
+
+---
+
+## Tasks Included
+
+### Task 14 – Decision Tree Model
+
+**Description**
+
+Implemented the Decision Tree Classifier to classify loan applications based on applicant information.
+
+**Activities**
+
+* Initialized DecisionTreeClassifier
+* Trained the model using training data
+* Generated predictions
+* Calculated training and testing accuracy
+* Evaluated using Confusion Matrix and Classification Report
+
+---
+
+### Task 15 – Random Forest Model
+
+**Description**
+
+Developed a Random Forest model to improve prediction accuracy by combining multiple decision trees.
+
+**Activities**
+
+* Initialized RandomForestClassifier
+* Trained the model
+* Predicted loan eligibility
+* Evaluated model performance
+* Generated Confusion Matrix and Classification Report
+
+---
+
+### Task 16 – K-Nearest Neighbors (KNN) Model
+
+**Description**
+
+Implemented the K-Nearest Neighbors algorithm for loan eligibility prediction based on feature similarity.
+
+**Activities**
+
+* Initialized KNeighborsClassifier
+* Trained the classifier
+* Generated predictions
+* Calculated accuracy
+* Evaluated using Confusion Matrix and Classification Report
+
+---
+
+### Task 17 – XGBoost Model
+
+**Description**
+
+Built a Gradient Boosting (XGBoost) model to improve prediction accuracy using ensemble learning.
+
+**Activities**
+
+* Initialized GradientBoostingClassifier
+* Trained the model
+* Generated predictions
+* Evaluated model performance
+* Compared with other classifiers
+
+---
+
+### Task 18 – Evaluating Performance and Saving the Model
+
+**Description**
+
+Compared all trained models using evaluation metrics and selected the best-performing model for deployment.
+
+**Activities**
+
+* Compared model accuracies
+* Applied 5-fold Cross Validation
+* Evaluated using:
+
+  * Accuracy
+  * Precision
+  * Recall
+  * F1-Score
+  * Confusion Matrix
+* Saved the best model using Pickle
+
+**Output**
+
+* `model.pkl`
+
+---
+
+## Machine Learning Workflow
+
+```text
+Preprocessed Dataset
+        │
+        ▼
+Decision Tree Model
+        │
+        ▼
+Random Forest Model
+        │
+        ▼
+KNN Model
+        │
+        ▼
+XGBoost Model
+        │
+        ▼
+Performance Evaluation
+        │
+        ▼
+Cross Validation
+        │
+        ▼
+Select Best Model
+        │
+        ▼
+Save model.pkl
+        │
+        ▼
+Flask Deployment
+```
+
+---
+
+## Algorithms Used
+
+* Decision Tree Classifier
+* Random Forest Classifier
+* K-Nearest Neighbors (KNN)
+* Gradient Boosting (XGBoost)
+
+---
+
+## Evaluation Metrics
+
+* Accuracy Score
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+* Classification Report
+* Cross Validation (5-Fold)
+
+---
+
+## Technologies Used
+
+* Python
+* Scikit-learn
+* Pandas
+* NumPy
+* Pickle
+* Jupyter Notebook
+* Flask
+
+---
+
+## Folder Structure
+
+```text
+Epic-04-Model-Building/
+│
+├── README.md
+│
+├── Task-14-Decision-Tree-Model/
+│   ├── Documentation.md
+│   ├── README.md
+│   └── images/
+│
+├── Task-15-Random-Forest-Model/
+│   ├── Documentation.md
+│   ├── README.md
+│   └── images/
+│
+├── Task-16-KNN-Model/
+│   ├── Documentation.md
+│   ├── README.md
+│   └── images/
+│
+├── Task-17-XGBoost-Model/
+│   ├── Documentation.md
+│   ├── README.md
+│   └── images/
+│
+└── Task-18-Evaluating-Performance-and-Saving-the-Model/
+    ├── Documentation.md
+    ├── README.md
+    └── images/
+```
+
+---
+
+## Learning Outcomes
+
+* Built multiple supervised machine learning classification models.
+* Compared different algorithms using standard evaluation metrics.
+* Understood the importance of model evaluation and cross-validation.
+* Selected the most suitable model for loan eligibility prediction.
+* Saved the trained model for deployment in a Flask web application.
+
+---
+
+## Conclusion
+
+Epic 4 successfully developed and evaluated multiple machine learning models for predicting loan eligibility. Through systematic comparison and validation, the most accurate model was selected and saved as a reusable `.pkl` file, enabling seamless integration into the Smart Lender web application for real-time loan approval prediction.
 
