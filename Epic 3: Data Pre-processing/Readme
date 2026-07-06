@@ -1,1 +1,175 @@
+# Epic 3 – Data Pre-processing
+
+## Project Name
+
+**Smart Lender – Loan Eligibility Prediction System**
+
+## Overview
+
+Data preprocessing is a critical phase in the machine learning lifecycle. The objective of this epic is to prepare the loan eligibility dataset for model training by cleaning the data, handling missing values, balancing class distributions, scaling numerical features, and splitting the dataset into training and testing sets. These preprocessing steps improve the quality of the data and enhance the performance of machine learning algorithms.
+
+---
+
+## Tasks Included
+
+### Task 10 – Checking and Handling Values
+
+This task focuses on identifying and correcting issues within the dataset.
+
+**Activities Performed**
+
+* Imported the dataset using Pandas
+* Checked dataset information and data types
+* Identified missing values
+* Replaced missing numerical values using the Mean method
+* Replaced missing categorical values using the Mode method
+* Removed duplicate records
+* Verified the cleaned dataset
+
+**Outcome**
+
+A clean and consistent dataset ready for further preprocessing.
+
+---
+
+### Task 11 – Balancing the Dataset
+
+This task ensures that the target classes are fairly represented.
+
+**Activities Performed**
+
+* Analyzed class distribution
+* Identified class imbalance
+* Applied balancing techniques where required
+* Verified balanced target classes
+
+**Outcome**
+
+A balanced dataset that minimizes prediction bias and improves model performance.
+
+---
+
+### Task 12 – Scaling the Data
+
+This task standardizes numerical features to improve machine learning efficiency.
+
+**Activities Performed**
+
+* Identified numerical features
+* Applied feature scaling techniques
+* Used StandardScaler (or MinMaxScaler)
+* Generated normalized feature values
+
+**Scaled Features**
+
+* Applicant Income
+* Co-applicant Income
+* Loan Amount
+* Loan Amount Term
+
+**Outcome**
+
+A normalized dataset that improves model convergence and prediction accuracy.
+
+---
+
+### Task 13 – Splitting Data into Training and Test Sets
+
+This task divides the processed dataset into separate subsets for training and evaluation.
+
+**Activities Performed**
+
+* Selected feature variables and target variable
+* Split the dataset using an 80:20 ratio
+* Generated:
+
+  * X_train
+  * X_test
+  * y_train
+  * y_test
+
+**Outcome**
+
+Prepared datasets for training and evaluating machine learning models.
+
+---
+
+## Workflow
+
+```text
+Loan Dataset
+      │
+      ▼
+Checking & Handling Values
+      │
+      ▼
+Balancing the Dataset
+      │
+      ▼
+Scaling the Data
+      │
+      ▼
+Train-Test Split
+      │
+      ▼
+Processed Dataset Ready for Model Building
+```
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib
+* Seaborn
+* Jupyter Notebook / VS Code
+
+---
+
+## Folder Structure
+
+```text
+Epic-03-Data-Preprocessing/
+│
+├── README.md
+├── Task-10-Checking-and-Handling-Values/
+│   ├── README.md
+│   ├── Documentation.md
+│   └── images/
+│
+├── Task-11-Balancing-the-Dataset/
+│   ├── README.md
+│   ├── Documentation.md
+│   └── images/
+│
+├── Task-12-Scaling-the-Data/
+│   ├── README.md
+│   ├── Documentation.md
+│   └── images/
+│
+└── Task-13-Splitting-Training-and-Test-Sets/
+    ├── README.md
+    ├── Documentation.md
+    └── images/
+```
+
+---
+
+## Learning Outcomes
+
+* Learned how to clean and prepare real-world datasets.
+* Handled missing values and duplicate records effectively.
+* Understood the importance of balancing datasets for fair predictions.
+* Applied feature scaling to improve machine learning performance.
+* Split datasets into training and testing subsets for reliable model evaluation.
+* Prepared high-quality data for building loan eligibility prediction models.
+
+---
+
+## Conclusion
+
+Epic 3 establishes a strong foundation for machine learning by transforming raw loan application data into a clean, balanced, normalized, and well-structured dataset. These preprocessing techniques improve model accuracy, reduce bias, and ensure reliable loan eligibility predictions in the Smart Lender application.
 
